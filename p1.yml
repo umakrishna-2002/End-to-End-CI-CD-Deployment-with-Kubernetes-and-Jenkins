@@ -1,0 +1,21 @@
+---
+- name: Installing Java and Jenkins on Master Machine
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Run localhost script
+      script: localhost.sh
+
+- name: Installing Kubernetes and Java on k-master machine
+  hosts: KM
+  become: true
+  tasks:
+    - name: Run k-master script
+      script: k8s.sh
+
+- name: Installing Kubernetes on ks1 and ks2
+  hosts: KS
+  become: true
+  tasks:
+    - name: Run ks script
+      script: ks.sh
