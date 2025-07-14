@@ -57,6 +57,7 @@ Create a Jenkins pipeline by adding the docker hub credentials and
 source code location.
 ● Docker commands to run and build images and push images to the
 central docker hub.
+
 ● Configure the kubernetes service and yaml.
 
 ![image](https://github.com/user-attachments/assets/59cd0e02-1b2d-467f-b129-124c2e7e7915)
