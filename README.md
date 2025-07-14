@@ -55,6 +55,7 @@ Now Configure jenkins by adding the slave node to it.
 
 Create a Jenkins pipeline by adding the docker hub credentials and
 source code location.
+
 ● Docker commands to run and build images and push images to the
 central docker hub.
 
