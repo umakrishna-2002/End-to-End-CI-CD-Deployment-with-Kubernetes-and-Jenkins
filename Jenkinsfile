@@ -2,7 +2,7 @@ pipeline {
     agent none
 
     environment {
-        DOCKERHUB_CREDENTIALS = credentials("f11e2d72-77e8-41dc-9824-b7c02cf5bed0")
+        DOCKERHUB_CREDENTIALS = credentials("credentials_ID")
     }
 
     stages {
