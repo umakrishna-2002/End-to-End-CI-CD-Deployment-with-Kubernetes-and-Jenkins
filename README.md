@@ -47,7 +47,8 @@ Also remove conflits on container.io
 <pre>sudo apt-get remove --purge containerd</pre>
 ![image](https://github.com/user-attachments/assets/65246bb9-4192-470d-888c-a0c42692d439)
 
-<pre>sudo apt-get install containered.io</pre>
+<pre>sudo apt-get install containerd.io
+</pre>
 ![image](https://github.com/user-attachments/assets/1b65fecb-0a52-4f8f-a329-a237abe43977)
 
 Now Configure jenkins by adding the slave node to it.
